@@ -262,7 +262,7 @@ path simple_stupid_funnel(const std::vector<diagnal> &d_list, const point &start
 				else
 				{
 #ifdef _DEBUG
-					std::cout << "Add " << right << " to shortes path (New apex)" << std::endl;
+					std::cout << "Add " << left << " to shortes path (New apex)" << std::endl;
 #endif
 					shortest_path.push_back(left);
 					apex = polygon_points[left];
